@@ -1,25 +1,13 @@
-<div style="text-align: center;">
-  <h1>
-    A CLI tool to quickly search on youtube 
-  </h1>
-</div>
+# A CLI tool to quickly search on youtube
 
-<a id="install"></a>
-<h2>
-  <picture>
-    <img src="./public/install.gif?raw=true" width="60px" style="margin-right: 1px;">
-  </picture>
-  Install
-</h2>
+* Use this cli tool to open a new youtube window/tab with your search query.
 
+### Install
 ```sh
 go install github.com/schoolboybru/youtube-search@latest
 ```
 
-This installs a go binary that will automatically bind to your $GOPATH
-
-Then in a new terminal run:
-
+### Usage
 ```
 youtube-search <Your search here>
 ```
